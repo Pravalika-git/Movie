@@ -29,7 +29,7 @@ async function getData() {
 function displayData(obj) {
     console.log(obj); 
     container.innerHTML = ""; 
-    obj.forEach(element => {
+    obj.movies.forEach(element => {
         let item = document.createElement("div");
         item.className = "item";
         item.innerHTML = `
